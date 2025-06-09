@@ -20,8 +20,8 @@ except:
 class Config(object):
   API_ID = int(os.environ.get("API_ID", "4018758"))
   API_HASH = str(os.environ.get("API_HASH", "622bba3cf046315531f71f9d97fa6c2a"))
-  BOT_TOKEN = str(os.environ.get("BOT_TOKEN", "5822396703:AAG7sX8J2gaYpF9J_ZHGphpqZ4VXSdpF"))
-  DATABASE_URL = str(os.environ.get("DATABASE_URL", "mongodb+srv://sequeiranikhil35:Lol@cluster0.2yz11ex.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"))
+  BOT_TOKEN = str(os.environ.get("BOT_TOKEN", "6942815361:AAEeaEn5xX0U4uUjE0Sh6Tdy2OpWqt_bqws"))
+  DATABASE_URL = str(os.environ.get("DATABASE_URL", "mongodb+srv://Nikhil:lol@cluster0.opa09.mongodb.net/?retryWrites=true&w=majority"))
   USERNAME = str(os.environ.get("BOT_USERNAME", "Almighty_Push_Bot"))
   LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "ygsrhggd"))
   AUTH_USERS = list(set(int(x) for x in os.environ.get("AUTH_USERS", "5385471287").split()))
